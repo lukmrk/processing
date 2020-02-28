@@ -1,7 +1,7 @@
 import random
 import math
 time=0
-txt=open('C:\Users\luca\Downloads\processing-3.5.4-windows64\log.txt','w')
+txt=open('.\log.txt','w')
 class Virus:
     
         def __init__(self,spread,mort,giorni, contagCoeff=1):
